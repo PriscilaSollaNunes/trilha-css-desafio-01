@@ -1,0 +1,121 @@
+body {
+    background-image: url('assets/images/woman-code.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    border-width: thin;
+    border-color: #33A8DB;
+}
+
+.banner-content {
+    background-color: black;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+    
+.logo {
+    display: flex;
+    justify-content: center; 
+}
+
+h1 {
+    color: #33A8DB;
+    justify-content: center;
+    font-variant: small-caps;
+}
+
+.banner p {
+    display: flex;
+    color: white;
+    text-align: center;
+    width: 400px;
+}
+
+button {
+    border: 2px solid #33A8DB; 
+    color: #33A8DB;
+    background-color: black; 
+    margin-bottom: 20px;
+    width: 200px; 
+    height: 50px;
+}
+
+#course-content {
+    background-color: black;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#course-content p {
+    display: flex;
+    color: white;
+    text-align: center;
+    width: 700px;
+
+}
+
+h2 {
+    color:#33A8DB;
+    justify-content: center;
+    font-variant: small-caps;
+}
+
+.module {
+    background-color: black; 
+    color: white; 
+    border-color: #33A8DB; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+span {
+    color: #33A8DB;
+}
+
+#transform-world {
+    height: 200px;
+}
+
+#transform-world p {
+    color: white;
+    font-size: 18px;
+    width: 110px; 
+    height: 50px;
+    text-transform: lowercase;
+    padding: 40px;
+}
+
+#professional-challenges {
+    background-color: black;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Defina a altura da seção do rodapé, se necessário */
+    flex-direction: column-reverse;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    
+}
+
+
+  
